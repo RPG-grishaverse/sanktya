@@ -1,0 +1,1130 @@
+/*Normativa*/
+.gvtbnor {
+  width: 470px;   padding: 40px;
+  margin: auto;   background: rgba(12,12,12,0.8);
+}
+
+.gvtbnor .nortit {
+font: 700 30px Cardo;
+  color: var(--gverse-color);
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 30px;
+  padding: 10px 0px;
+  margin-bottom: 00px;
+  text-transform: uppercase;
+}
+
+.gvtbnor .nortit i {
+  display: block;
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--gvborde-color);
+  margin-bottom: 5px;
+}
+
+.norcont {
+  padding: 0px 20px 20px;
+  font: 300 12px Montserrat;
+  letter-spacing: 0.5px;
+  line-height: 15pt;
+  text-align: left;
+  color: var(--gtext-color);
+  text-align: justify;
+}
+
+.gvtbnor .norcont n {
+  font-family: 'Cardo';
+  color: var(--gverse-color);
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.norapa {
+  font-family: 'Montserrat';
+  font-size: 11px;
+  line-height: 11px;
+  height: 11px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  background: var(--gverse-color);
+  padding: 10px 20px 10px 50px;
+  margin: 40px 0px 30px -60px;
+  display: table;
+  color: var(--gvborde-color);
+}
+
+.norapa:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-left: 15.5px solid var(--gverse-color);
+  border-bottom: 15.5px solid var(--gverse-color);
+  border-top: 15.5px solid transparent;
+  border-right: 15.5px solid transparent;
+  position: absolute;
+  margin: -10px 21px;
+}
+
+/*Tablilla administrativa*/
+.gvtbadm {
+  width: 470px; 
+  padding: 40px;
+  margin: auto; 
+  background: rgba(12,12,12,0.8);
+}
+
+.gvtbadm .admtit {
+  font-size: 26px; 
+  font-family: 'Cardo';
+  color: var(--gverse-color);
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 30px;
+  padding: 10px 0px;
+  margin-bottom: 00px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.gvtbadm .admtit i {
+  display: block;
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--gvborde-color);
+  margin-bottom: 5px;
+}
+
+.admcont {
+  padding: 0px 00px 20px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  line-height: 15pt;
+  text-align: left;
+  color: var(--gtext-color);
+  text-align: justify;
+}
+
+.gvtbadm .admcont n {
+  font-family: 'Cardo';
+  color: var(--gverse-color);
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.admapa1 {
+  font-family: 'Montserrat';
+  font-size: 11px;
+  line-height: 11px;
+  height: 11px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  background: var(--gverse-color);
+  padding: 10px 20px 10px 50px;
+  margin: 40px 0px 10px -40px;
+  display: table;
+  color: var(--gvborde-color);
+}
+
+.admapa1:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-left: 15.5px solid var(--gverse-color);
+  border-bottom: 15.5px solid var(--gverse-color);
+  border-top: 15.5px solid transparent;
+  border-right: 15.5px solid transparent;
+  position: absolute;
+  margin: -10px 21px;
+}
+
+.admapa2 {
+  border-bottom: 2px solid var(--gvborde-color);
+  margin: 20px 20px 5px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 900;
+  color: var(--gverse-color);
+  letter-spacing: 1px;
+  line-height: 11px;
+  padding: 2px 25px;
+}
+
+.gvtbadm .admlist {
+  padding-left: 40px;
+}
+
+.gvtbadm .admlist span {
+  font-weight: 700;
+  color: var(--gverse-color);
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.gvtbadm .admlist span:before {
+  content: "\e08f \e08f \e08f";
+  font-family: 'saturnicons';
+  font-size: 7px;
+  letter-spacing: -3px;
+  margin: 0px 7px 0px -19px;
+}
+
+/*Ambientación*/
+.gvtbamb {
+  width: 430px; 
+  height: 470px;
+  padding: 60px;
+  margin: auto; 
+  background: rgba(12,12,12,0.8);
+  line-height: 0px;
+}
+
+.gvtbamb .ambtit {
+  width: 310px;
+  margin-left: 60px;
+  font-size: 30px;
+  height: 30px;
+  font-family: 'Cardo';
+  color: var(--gverse-color);
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 30px;
+  padding: 10px 0px;
+  margin-top: 423px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+
+.gvtbamb .ambtxt {
+  width: 410px;
+  padding: 10px;
+  font-family: 'Montserrat';
+  text-align: justify;
+  font-size: 12px;
+  line-height: 15pt;
+  font-weight: 400;
+  transition: 0.4s ease-in;
+  color: var(--gtext-color);
+  opacity: 0;
+  position: absolute;
+  margin-top: 171px;
+  height: 294px;
+  overflow-y: auto;
+}
+
+.gvtbamb:hover .ambtxt {
+  opacity: 1;
+  transition: 0.4s ease-in;
+  transition-delay: 0.6s;
+}
+
+.gvtbamb .gridamb {
+  width: 430px;
+  height: 445px;
+  position: absolute;
+  /*background: #eee;*/
+  padding: 12px 0px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.gvtbamb .gridamb div {
+  transition: 0.5s ease-out;
+  transition-delay: 0.4s;
+}
+
+.gvtbamb .gridamb span {
+  border: 1px solid var(--gvborde-color);
+  outline: 1px solid var(--gvborde-color);
+  outline-offset: 10px;
+  overflow: hidden;
+  position: absolute;
+  display: block;
+  transform: rotate(-45deg);
+}
+
+.gvtbamb .gridamb img {
+  transform: rotate(45deg);
+}
+
+.gvtbamb .gridamb #i1 span {
+  width: 176px;
+  height: 176px;
+  margin: 40px 126px;
+}
+
+.gvtbamb .gridamb #i1 img {
+  width: 250px;
+  height: 250px;
+  margin: -37px;
+}
+
+.gvtbamb .gridamb #i2 span {
+  width: 106px;
+  height: 106px;
+  margin: 223px 62px;
+}
+
+.gvtbamb .gridamb #i2 img {
+  width: 150px;
+  height: 150px;
+  margin: -22px;
+}
+
+.gvtbamb .gridamb #i3 span {
+  width: 106px;
+  height: 106px;
+  margin: 223px 261px 0px;
+}
+
+.gvtbamb .gridamb #i3 img {
+  width: 150px;
+  height: 150px;
+  margin: -22px;
+}
+
+.gvtbamb .gridamb #i4 span {
+  width: 70px;
+  height: 70px;
+  margin: 315px 179px;
+  transition: 0.4s ease-out;
+  transition-delay: 0.4s;
+}
+
+.gvtbamb .gridamb #i4 img {
+  width: 100px;
+  height: 100px;
+  margin: -15px;
+}
+
+.gvtbamb:hover #i1, .gvtbamb:hover #i2, .gvtbamb:hover #i3 {
+  transform: scale(0);
+  transition: 0.4s ease-in;
+}
+
+.gvtbamb:hover #i4 span {
+  margin-top: 14px;
+  transition: 0.5s ease-in;
+}
+
+.gvtbamb:hover #i4 {
+  transform: scale(.75);
+  transition: 0.5s ease-in;
+}
+
+.gvtbamb:hover .ambtit {
+  margin-top: 90px;
+  border-bottom: 1px solid var(--gvborde-color);
+}
+
+/*Registros*/
+.gvtbreg {
+  width: 470px; 
+  padding: 40px; 
+  border-bottom: 10px solid var(--gvborde-color); 
+  margin: auto; 
+  background: rgba(12,12,12,0.8);
+}
+
+.gvtbreg .regtit {
+  font-size: 20px; 
+  font-family: 'Cardo';
+  color: var(--gverse-color);
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 19px;
+  padding: 10px 0px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.gvtbreg .regtit i {
+  display: block;
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--gvborde-color);
+  margin-bottom: 5px;
+}
+
+.gvtbreg .regnorm {
+  border-top: 2px solid var(--gvborde-color);
+  padding: 20px 10px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: var(--gtext-color);
+  font-size: 12px;
+  line-height: 15pt;
+  text-align: justify;
+  font-family: 'Montserrat';
+}
+
+.gvtbreg .regnorm n {
+  font-family: 'Cardo';
+  color: var(--gverse-color);
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.gvtbreg .regreg {
+  border-top: 2px solid var(--gvborde-color);
+  padding: 20px 10px 0px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  line-height: 15pt;
+  text-align: left;
+  color: var(--gtext-color);
+}
+
+.gvtbreg .regreg span {
+  font-family: 'Montserrat';
+  display: table;
+  text-transform: uppercase;
+  color: var(--gvborde-color);
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 1px;
+  height: 14px;
+  line-height: 14px;
+  margin: 10px 0px 10px -50px;
+  padding: 10px 10px 10px 45px;
+  background: var(--gverse-color);
+}
+
+.gvtbreg .regreg span:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-left: 17px solid var(--gverse-color);
+  border-bottom: 17px solid var(--gverse-color);
+  border-right: 17px solid transparent;
+  border-top: 17px solid transparent;
+  position: absolute;
+  margin: -10px 11px;
+  
+}
+
+.gvtbreg .regreg a:after {
+  font-family: 'saturnicons';
+  content: "\e08f";
+  color: var(--gtext-color);
+  font-size: 7px;
+  margin-left: 7px;
+  margin-right: 3px;
+}
+
+.gvtbreg .regreg .sf-cross-2 {
+  font-size: 8px;
+  margin-left: 10px;
+  color: var(--gvborde-color);
+}
+
+/*Expediente*/
+.gvtbexp {
+  width: 350px; 
+  min-height: 480px;
+  padding: 40px;
+  border: 1px solid var(--gvborde-color);
+  margin: auto; 
+  background: rgba(12,12,12,0.8);
+  line-height: 0px;
+  overflow: hidden;
+}
+
+.gvtbexp .expbr {  height: 387px;}
+
+.gvtbexp .exptrg1 {
+  width: 0;
+  height: 0;
+  border-right: 215px solid var(--gverse-color);
+  border-top: 215px solid var(--gverse-color);
+  border-left: 215px solid transparent;
+  border-bottom: 215px solid transparent;
+  margin: -40px -40px 0px;
+  position: absolute;
+}
+
+.gvtbexp .expimg {
+  width: 202px;
+  height: 202px;
+  border: 1px solid var(--gvborde-color);
+  border-radius: 50%;
+  margin: 63px;
+  padding: 10px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.gvtbexp .expimg div {
+  border-radius: 50%;
+  border: 1px solid var(--gvborde-color);
+  width: 200px;
+  background-size: 200px 200px;
+  filter: grayscale(50%);
+  height: 200px;
+}
+
+.gvtbexp .expimg div:before {
+  content: "";
+  display: block;
+  background-color: rgba(12,12,12,0.8);
+  width: 202px;
+  height: 202px;
+  margin: -1px;
+  border-radius: 50%;
+}
+
+.expnom {
+  width: 320px;
+  position: absolute;
+  height: 14px;
+  line-height: 14px;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Cardo';
+  padding: 10px;
+  border: 1px solid var(--gvborde-color);
+  letter-spacing: 2px;
+  margin: 307px 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px var(--gvborde-color);
+  color: var(--gtext-color);
+}
+
+.expdtos {
+  width: 445px;
+  line-height: 0px;
+  margin: -10px 0px;
+  font-size: 12px;
+  line-height: 0pt;
+  color: var(--gtext-color);
+  font-family: 'Montserrat';
+}
+
+.expdtos div {
+  letter-spacing: 0.5px;
+  font-size: 11px;
+  line-height: 15pt;
+  margin: 5px 0px;
+  height: 30px;
+}
+
+.expdtos span {
+  padding: 10px 5px 10px 10px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: 'Montserrat';
+  color: var(--gvborde-color);
+  margin-right: 25px;
+  font-size: 10px;
+  height: 10px;
+  line-height: 10px;
+  letter-spacing: 1px;
+  background: var(--gverse-color);
+  display: inline-block;
+}
+
+.expdtos span:after {
+  content: "";
+  position: absolute;
+  margin: -10px 0px 0px 5px;
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid var(--gverse-color);
+  border-bottom: 15px solid var(--gverse-color);
+  border-top: 15px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.gvtbexp .exptxt {
+  width: 350px;
+  min-height: 400px;
+  line-height: 15pt;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  color: var(--gtext-color);
+  text-align: justify;
+  border-top: 1px solid var(--gvborde-color);
+  margin-top: 50px;
+  padding-top: 40px;
+}
+
+/*Tablilla rol*/
+.gvtbrol {
+  width: 400px; 
+  padding: 30px; 
+  border: 1px solid var(--gvborde-color); 
+  margin: auto; 
+  background: rgba(12,12,12,0.8);
+}
+
+.gvtbrol .postit {
+  font-size: 20px; 
+  font-family: 'Cardo';
+  font-style: italic;
+  letter-spacing: 0.5px;
+  text-align: center;
+  line-height: 19px;
+  padding: 30px 0px;
+  margin-bottom: 10px;
+  color: var(--gtext-color);
+}
+
+.gvtbrol .postit::first-letter {
+  font-weight: 700;
+  margin-right: -1px;
+  font-style: normal;
+  color: var(--gverse-color); 
+}
+
+.gvtbrol .posdat{
+  padding: 0px 0px 10px;
+  border-bottom: 1px solid var(--gvborde-color);
+  margin: 0px 15px 10px;
+  font-family: 'Montserrat';
+  color: var(--gtext-color);
+  font-size: 8px;
+  line-height: 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 300;
+}
+
+.gvtbrol .posdat i {
+  color: var(--gverse-color);
+  font-size: 7px;
+  margin-left: 5px;
+}
+
+.gvtbrol .postxt {
+  text-align: justify;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  color: var(--gtext-color);
+  font-size: 12px;
+  line-height: 15pt;
+  margin: 0px 20px 20px;
+}
+
+/*Combate*/
+.gvtbcomb {
+  width: 420px;
+  padding: 20px; 
+  border: 1px solid var(--gvborde-color); 
+  margin: auto;
+  text-align: justify;
+  background: rgba(12,12,12,0.8);
+  line-height: 0px;
+}
+
+.gvtbcomb .pj {
+  width: 100%;
+  height: 116px;
+  margin-bottom: 20px;
+}
+
+.gvtbcomb .icon {
+  border: 1px solid var(--gvborde-color);
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  outline: 1px solid var(--gvborde-color);
+  outline-offset: 5px;
+  margin: 20.4px;
+  overflow: hidden;
+  transform: rotate(-45deg);
+  position: absolute;
+}
+
+.gvtbcomb .icon span {
+  transform: rotate(45deg);
+  font-size: 25px;
+  margin: 5px;
+  line-height: 25px;
+  padding: 5px 0px;
+  height: 25px;
+  width: 35px;
+  text-align: center;
+  display: block;
+  color: var(--gverse-color);
+}
+
+.gvtbcomb .icon img {
+  transform: rotate(45deg);
+  height: 65px;
+  width: 65px;
+  margin: -9px;
+  display: block;
+  color: var(--gverse-color);
+}
+
+.gvtbcomb .cbnom {
+  position: absolute;
+  width: 324px;
+  height: 12px;
+  line-height: 12px;
+  padding: 5px 0px 5px 10px;
+  margin-top: 21px;
+  margin-left: 83px;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: 'Montserrat';
+  color: var(--gverse-color);
+  letter-spacing: 2px;
+  border-bottom: 1px solid var(--gvborde-color);
+}
+
+.gvtbcomb .estads {
+  position: absolute;
+  margin-left: 49px;
+  margin-top: 60px;
+}
+
+.gvtbcomb .estads .modf {
+  border: 1px solid var(--gvborde-color);
+  width: 45px;
+  height: 45px;
+  margin: 0px 12.5px;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  transform: rotate(-45deg);
+}
+
+.gvtbcomb .estads .modf span {
+  transform: rotate(45deg);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 15px 5px;
+  margin-left: -2px;
+  height: 15px;
+  width: 39px;
+  text-align: center;
+  display: block;
+  color: var(--gverse-color);
+  font-family: 'Montserrat';
+}
+
+.estads .vit .modf span {
+  font-size: 10px;
+  line-height: 11px;
+  padding: 17px 2px;
+  height: 11px;
+  width: 45px;
+}
+
+.vit, .cst, .des, .fza, .int {
+  display: inline-block;
+}
+
+.estads #n {
+  position: absolute;
+  transform: rotate(-45deg);
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  margin-left: -9px;
+  text-align: center;
+  background: var(--gverse-color);
+}
+
+.estads #n:before {
+  font-family: 'Montserrat';
+  height: 10px;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 5px 3px;
+  font-weight: 900;
+  margin: 1px -1px;
+  width: 14px;
+  display: block;
+  color: var(--gvborde-color);
+  transform: rotate(45deg);
+}
+
+.estads .vit #n:before {content: "V";}
+.estads .cst #n:before {content: "C";}
+.estads .des #n:before {content: "D";}
+.estads .fza #n:before {content: "F";}
+.estads .int #n:before {content: "I";}
+
+.gvtbcomb .estads .atrib {
+  border: 1px solid var(--gvborde-color);
+  width: 22px;
+  height: 22px;
+  margin: -7px -83px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  overflow: hidden;
+  transform: rotate(-45deg);
+}
+
+.gvtbcomb .estads .atrib span {
+  transform: rotate(45deg);
+  height: 9px;
+  font-size: 9px;
+  line-height: 9px;
+  padding: 6.5px 1.5px;
+  font-weight: 700;
+  width: 19px;
+  display: block;
+  color: var(--gverse-color);
+  font-family: 'Montserrat';
+}
+
+.gvtbcomb .combblq {
+  border: 1px solid var(--gvborde-color);
+  padding: 10px;
+  background: rgba(12,12,12,0.8);
+  min-height: 12px;
+  max-height: 120px;
+  font-family: 'Montserrat';
+  text-align: justify;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 12px;
+  margin-top: 10px;
+  color: var(--gtext-color);
+}
+
+.gvtbcomb .combapa {
+  display: table;
+  font-family: 'Montserrat';
+  font-size: 11px;
+  height: 11px;
+  line-height: 11px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--gvborde-color);
+  text-align: left;
+  margin: 20px 0px 0px -20px;
+  background: var(--gverse-color);
+  padding: 5px 5px 5px 20px;
+}
+
+.gvtbcomb .combapa:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-right: 10.5px solid transparent;
+  border-top: 10.5px solid transparent;
+  border-bottom: 10.5px solid var(--gverse-color);
+  border-left: 10.5px solid var(--gverse-color);
+  position: absolute;
+  margin: -5px 6px;  
+}
+
+.gvtbcomb .combblq strong {
+  color: var(--gverse-color);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.gvtbcomb .combblq strong:before {
+  font-family: 'saturnicons';
+  content: "\e08f";
+  font-size: 7px;
+  margin-left: 2px;
+}
+
+/*Baúl*/
+.gvtbbaul {
+  width: 400px;
+  height: 500px;
+  padding: 30px; 
+  border: 1px solid var(--gvborde-color); 
+  margin: auto; 
+  background: rgba(12,12,12,0.8);
+  text-align: center;
+}
+
+.pes {
+  position: absolute;
+  width: 159px;
+  height: 104px;
+}
+
+.pes label {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: var(--gvborde-color);
+  border: 1px solid var(--gvborde-color); 
+  display: inline-block;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  outline: 1px solid var(--gvborde-color);
+  outline-offset: 10px;
+  margin-top: 26px;
+}
+
+.pes label:hover {color: var(--gvborde-color);}
+
+.pes label i {
+  font-size: 25px;
+  line-height: 20px; 
+  font-size: 20px;
+  height: 20px;
+  width: 30px;
+  padding: 15px 10px;
+  text-align: center;
+  display: block;
+  transform: rotate(45deg);
+}
+
+.pes1 {
+  padding-right: 41px;
+  text-align: right;
+  margin-left: 0px;
+  /*background: var(--corporalki-color);*/
+}
+
+.pes2 {
+  padding-left: 41px;
+  margin-left: 200px;
+  text-align: left;
+  /*background: var(--materialki-color);*/
+}
+
+.pes [type=radio] {
+  display: none;
+} 
+
+.cj {
+  margin-top: 50px;
+  position: absolute;
+  text-align: center;
+  width: 360px;
+  height: 325px;
+  padding: 0px 20px;
+  border-top: 1px solid var(--gvborde-color);
+  border-bottom: 1px solid var(--gvborde-color);
+  overflow-y: auto; 
+  line-height: 0px;
+  opacity: 0;
+  font-size: 0px;
+}
+
+.pes2 .cj {
+  margin-left: -241px;
+}
+
+.pes [type=radio]:checked ~ label {
+  color: var(--gverse-color);
+  border-color: var(--gverse-color);
+  outline-color: var(--gverse-color);;
+  transition: 0.5s;
+}
+
+.pes [type=radio]:checked ~ label ~ .cj {
+  z-index: 1;
+  opacity: 1;
+}
+
+.gvtbbaul .pes1 obj, .gvtbbaul .pes2 hab {
+  border: 1px solid var(--gvborde-color);
+  width: 310px;
+  padding: 20px;;
+  margin: 5px auto;
+  min-height: 48px;
+  display: block;
+  background: rgba(12,12,12,0.9);
+  font-family: 'Montserrat';
+  color: var(--gtext-color);
+  font-size: 11px;
+  line-height: 13px;
+  text-align: justify;
+}
+
+.gvtbbaul .pes1 obj span, .gvtbbaul .pes2 hab span {
+  color: var(--gvborde-color);
+  background: var(--gverse-color);
+  text-transform: uppercase;
+  font-weight: 900;
+  display: table;
+  padding: 5px;
+  font-size: 10px;
+  line-height: 10px;
+  height: 10px;
+  margin-right: 20px;
+  margin-bottom: 2px;
+}
+
+.gvtbbaul .pes1 obj span:after, .gvtbbaul .pes2 hab span:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid var(--gverse-color);
+  border-left: 10px solid var(--gverse-color);
+  position: absolute;
+  margin: -5px 5px;
+}
+
+/*Cronología*/
+.gvtbcr {
+  width: 400px;
+  min-height: 500px;
+  padding: 30px; 
+  border: 1px solid var(--gvborde-color); 
+  margin: auto; 
+  background: rgba(12,12,12,0.8);
+  line-height: 0px;
+}
+
+.gvtbcr .crtit {
+  text-transform: uppercase;
+  color: var(--gverse-color);
+  font-weight: 700;
+  font-family: 'Cardo';
+  font-size: 26px;
+  letter-spacing: 5px;
+  line-height: 26px;
+  height: 26px;
+  padding-top: 15px;
+  width: 400px;
+  margin-bottom: 5px;
+}
+
+.gvtbcr .crtit i {
+  color: var(--gvborde-color);
+  font-size: 26px;
+  height: 26px;
+  width: 20px;
+  letter-spacing: 0px;
+  margin-top: -36px;
+  margin-left: 360px;
+  line-height: 26px;
+  padding: 10px 40px 10px 10px;
+  background: var(--gverse-color);
+  position: absolute;
+  display: block;
+  text-align: left;
+}
+
+.gvtbcr .crtit i:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-right: 23px solid var(--gverse-color);
+  border-top: 23px solid var(--gverse-color);
+  border-bottom: 23px solid transparent;
+  border-left: 23px solid transparent;
+  display: block;
+  margin-left: -56px;
+  margin-top: -36px;
+}
+
+.crapa {
+  font-family: 'Montserrat';
+  font-size: 11px;
+  line-height: 11px;
+  height: 11px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  background: var(--gverse-color);
+  padding: 10px 20px 10px 40px;
+  margin: 30px 0px 0px -30px;
+  display: inline-block;
+  color: var(--gvborde-color);
+}
+
+.crapa:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-left: 15.5px solid var(--gverse-color);
+  border-bottom: 15.5px solid var(--gverse-color);
+  border-top: 15.5px solid transparent;
+  border-right: 15.5px solid transparent;
+  position: absolute;
+  margin: -10px 20px;
+}
+
+.gvtbcr .stus {
+  background: var(--gverse-color);
+  width: 30px;
+  height: 30px;
+  transform: rotate(-45deg);
+  margin: 0px;
+  color: var(--gvborde-color);
+  position: absolute;
+}
+
+.gvtbcr .stus i {
+  display: block;
+  font-size: 12px;
+  line-height: 12px;
+  width: 20px;
+  height: 12px;
+  padding: 9px 5px;
+  text-align: center;
+  transform: rotate(45deg);
+}
+
+#cl {
+  background: var(--gvborde-color);
+  color: var(--gverse2-color)
+}
+
+.gvtbcr tcr {
+  display: block;
+  height: 30px;
+  padding: 6px;
+  margin: 10px 0px;
+}
+
+.gvtbcr tcr a {
+  position: absolute;
+  color: var(--gverse-color);
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-left: 50px;
+  line-height: 10px;
+  padding: 2.5px 0px;
+  text-decoration: none;
+}
+
+.gvtbcr tcr .crdts {
+  color: var(--gtext-color);
+  position: absolute;
+  font-family: 'Montserrat';
+  font-size: 9px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 9px;
+  height: 9px;
+  margin: 15px 50px;
+  padding: 6px 0px;
+}
+
+.gvtbcr tcr .crdts i {
+  color: var(--gverse-color);
+  font-size: 7px;
+  margin-left: 5px;
+}
