@@ -387,7 +387,7 @@ font: 700 30px Cardo;
   color: var(--gtext-color);
 }
 
-.gvtbreg .regreg span {
+.gvtbreg .regreg t {
   font-family: 'Montserrat';
   display: table;
   text-transform: uppercase;
@@ -402,7 +402,7 @@ font: 700 30px Cardo;
   background: var(--gverse-color);
 }
 
-.gvtbreg .regreg span:after {
+.gvtbreg .regreg t:after {
   content: "";
   width: 0px;
   height: 0px;
