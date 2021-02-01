@@ -994,7 +994,7 @@ font: 700 30px Cardo;
  left: 20px;   top: -5px;
 }
 
-.gvtbbaul #estd:after {
+.gvtbbaul #estd nm {
 font: 10px 'Montserrat';
 line-height: 10px;
 color: var(--gvborde-color);
@@ -1011,7 +1011,7 @@ padding: 5px 3px;
  left: 50px;   top: -5px;
 }
 
-.gvtbbaul #bnf:after {
+.gvtbbaul #bnf nn {
 font: 10px 'Montserrat';
 line-height: 10px;
 color: var(--gvborde-color);
