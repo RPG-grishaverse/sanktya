@@ -849,7 +849,7 @@ font: 700 30px Cardo;
 /*Baúl*/
 .gvtbbaul {
   width: 400px;
-  height: 500px;
+  height: 530px;
   padding: 30px; 
   border: 1px solid var(--gvborde-color); 
   margin: auto; 
@@ -914,7 +914,7 @@ font: 700 30px Cardo;
   position: absolute;
   text-align: center;
   width: 360px;
-  height: 325px;
+  height: 385px;
   padding: 0px 20px;
   border-top: 1px solid var(--gvborde-color);
   border-bottom: 1px solid var(--gvborde-color);
