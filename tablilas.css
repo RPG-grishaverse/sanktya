@@ -942,8 +942,7 @@ font: 700 30px Cardo;
 
 .gvtbbaul .pes1 obj, .gvtbbaul .pes2 hab {
   border: 1px solid var(--gvborde-color);
-  width: 310px;
-  padding: 20px;;
+  width: 310px;   padding: 20px;;
   margin: 5px auto;
   min-height: 48px;
   display: block;
@@ -984,6 +983,21 @@ font: 700 30px Cardo;
  text-align: left;
  letter-spacing: 2px;
  margin-top: 5px;
+}
+
+.gvtbbaul #estd {
+ width: 25px;    height: 25px;
+ text-align: center;
+ background: var(--gverse-color);
+ transform: rotate(-45deg);
+}
+
+.gvtbbaul #estd:after {
+font: 10px 'Montserrat';
+line-height: 10px;
+color: var(--gvborde-color);
+ transform: rotate(45deg);
+padding: 5px 3px;
 }
 
 /*Cronología*/
