@@ -988,35 +988,30 @@ font: 700 30px Cardo;
  width: 25px;    height: 25px;
  text-align: center;
  background: var(--gverse-color);
+ border: 1px solid var(--gvborde-color);
  transform: rotate(-45deg);
  position: relative;
  left: 20px;   top: -5px;
 }
 
-.gvtbbaul #estd nm {
-font: 10px 'Montserrat';
-line-height: 10px;
-color: var(--gvborde-color);
- transform: rotate(45deg);
-padding: 5px 3px;
-}
-
 .gvtbbaul #bnf {
  width: 25px;    height: 25px;
  text-align: center;
- background: var(--gverse-color);
+ background: var(--gvborde-color);
+ border: 1px solid var(--gverse-color);
  transform: rotate(-45deg);
  position: relative;
  left: 50px;   top: -5px;
 }
 
-.gvtbbaul #bnf nn {
+.gvtbbaul obj nn {
 font: 10px 'Montserrat';
-line-height: 10px;
-color: var(--gvborde-color);
- transform: rotate(45deg);
-padding: 5px 3px;
+line-height: 10px; display: block;
+transform: rotate(45deg);
+color: var(--gtext-color);
+padding: 5px 3px;  padding: 8px 6px;
 }
+
 /*Cronología*/
 .gvtbcr {
   width: 400px;
