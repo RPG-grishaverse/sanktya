@@ -990,6 +990,7 @@ font: 700 30px Cardo;
  text-align: center;
  background: var(--gverse-color);
  transform: rotate(-45deg);
+ display: block;
 }
 
 .gvtbbaul #estd:after {
