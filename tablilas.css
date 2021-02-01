@@ -985,7 +985,7 @@ font: 700 30px Cardo;
 }
 
 .gvtbbaul #estd {
- width: 25px;    height: 25px;
+ width: 28px;    height: 28px;
  text-align: center;
  background: var(--gverse-color);
  border: 1px solid var(--gvborde-color);
@@ -995,7 +995,7 @@ font: 700 30px Cardo;
 }
 
 .gvtbbaul #bnf {
- width: 25px;    height: 25px;
+ width: 28px;    height: 28px;
  text-align: center;
  background: var(--gvborde-color);
  border: 1px solid var(--gverse-color);
@@ -1009,7 +1009,7 @@ font: 10px 'Montserrat';
 line-height: 10px; display: block;
 transform: rotate(45deg);
 color: var(--gtext-color);
-padding: 5px 3px;  padding: 8px 6px;
+padding: 8px 6px;
 }
 
 /*Cronología*/
