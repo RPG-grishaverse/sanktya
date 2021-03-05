@@ -93,12 +93,12 @@ background: linear-gradient(to right, black, #3838386b);
     background: var(--gverse-color);
 }
 
-.perfilstats1 {padding: 20px;}
+.perfilstats1 {padding: 10px;}
 
 .perfilmensajes, .inscriperfil {
   display: inline-block;
   width: 185px;  background: #000;
-  padding: 10px;
+  padding: 10px; min-height: 22px;
 }
 
 .perfilmensajes i {
