@@ -388,31 +388,26 @@ font: 700 30px Cardo;
 }
 
 .gvtbreg .regreg t {
-  font-family: 'Montserrat';
-  display: table;
-  text-transform: uppercase;
-  color: var(--gvborde-color);
-  font-weight: 900;
-  font-size: 14px;
-  letter-spacing: 1px;
-  height: 14px;
-  line-height: 14px;
-  margin: 10px 0px 10px -50px;
-  padding: 10px 10px 10px 45px;
-  background: var(--gverse-color);
+    font-family: 'Montserrat';
+    display: table;
+    text-transform: uppercase;
+    color: var(--gvborde-color);
+    font-weight: 900;
+    font-size: 14px;    letter-spacing: 1px;
+    height: 14px;    line-height: 14px;
+    margin: 10px 0px 10px -50px;
+    padding: 10px 10px 10px 45px;
+    background: var(--gverse-color);
 }
 
 .gvtbreg .regreg t:after {
-  content: "";
-  width: 0px;
-  height: 0px;
-  border-left: 17px solid var(--gverse-color);
-  border-bottom: 17px solid var(--gverse-color);
-  border-right: 17px solid transparent;
-  border-top: 17px solid transparent;
-  position: absolute;
-  margin: -10px 11px;
-  
+    content: "";
+    width: 0px;    height: 0px;
+    border-left: 17px solid var(--gverse-color);
+    border-bottom: 17px solid var(--gverse-color);
+    border-right: 17px solid transparent;
+    border-top: 17px solid transparent;
+    position: absolute;     margin: -10px 11px;
 }
 
 .gvtbreg .regreg a:after {
