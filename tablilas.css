@@ -194,7 +194,7 @@ font: 700 30px Cardo;
   color: var(--gverse-color);
   letter-spacing: 2px;
   text-align: center;
-  line-height: 30px;
+  line-height: 40px;
   padding: 10px 0px;
   margin-top: 423px;
   margin-bottom: 30px;
@@ -215,7 +215,7 @@ font: 700 30px Cardo;
   color: var(--gtext-color);
   opacity: 0;
   position: absolute;
-  margin-top: 171px;
+  margin-top: 195px;
   height: 294px;
   overflow-y: auto;
 }
