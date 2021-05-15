@@ -9,7 +9,7 @@ background: linear-gradient(to right, black, #3838386b);
 
 .perfilavatar {
   border: 20px solid rgba(0,0,0,.9);
-  width: 230px;  height: 320px;
+  width: 230px;  height: 350px;
   outline: 1px solid var(--gvborde-color);
   margin-top: 10px; position: relative
 }
